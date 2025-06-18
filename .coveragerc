@@ -1,0 +1,10 @@
+[run]
+source = .
+omit =
+    tests/*
+    .venv/*
+    */__init__.py
+
+[report]
+fail_under = 5
+show_missing = true

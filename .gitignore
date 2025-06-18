@@ -1,0 +1,10 @@
+.venv
+.env
+.notebook
+.pytest_cache
+.coverage
+.python-version
+
+
+
+note
