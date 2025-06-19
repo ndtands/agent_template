@@ -143,7 +143,8 @@ async def _setup_and_execute_agent_step(
     if configurable.mcp_settings:
         for server_name, server_config in configurable.mcp_settings["servers"].items():
             if (
-                server_config["enabled_tools"] and agent_type in server_config["add_to_agents"]
+                server_config["enabled_tools"]
+                and agent_type in server_config["add_to_agents"]
             ):
                 mcp_servers[server_name] = {
                     k: v
