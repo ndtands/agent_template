@@ -1,5 +1,6 @@
-import logging
 import json
+import logging
+
 import json_repair
 
 logger = logging.getLogger(__name__)

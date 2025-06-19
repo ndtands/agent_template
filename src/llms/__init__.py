@@ -1,3 +1,3 @@
-from .llm import LLM
+from .llm import get_llm_by_type
 
-__all__ = ["LLM"]
+__all__ = ["get_llm_by_type"]
