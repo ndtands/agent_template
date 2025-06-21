@@ -168,6 +168,5 @@ async def _setup_and_execute_agent_step(
             return await _execute_agent_step(state, agent, agent_type)
     else:
         # Use default tools if no MCP servers are configured
-        print(f"FFFFFFF: {agent_type}")
         agent = create_agent(agent_type, agent_type, default_tools, agent_type)
         return await _execute_agent_step(state, agent, agent_type)
