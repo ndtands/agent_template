@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package tts;
+
+service TextToSpeech {
+  rpc GenerateSpeech(SpeechRequest) returns (SpeechResponse);
+}
+
+message SpeechRequest {
+  string text = 1;
+  string gender = 2; // "male" or "female"
+}
+
+message SpeechResponse {
+  bytes audio = 1; // WAV audio data
+}
