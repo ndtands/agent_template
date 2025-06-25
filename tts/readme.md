@@ -102,7 +102,7 @@ Cài đặt các thư viện cần thiết:
 
 ```bash
 pip install git+https://github.com/huggingface/parler-tts.git
-pip install soundfile numpy grpcio grpcio-tools flash-attn
+pip install soundfile numpy grpcio-tools flash-attn
 ```
 
 ### Bước 2: Tạo file định nghĩa giao thức (`.proto`)

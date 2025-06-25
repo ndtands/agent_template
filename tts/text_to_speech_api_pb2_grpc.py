@@ -2,7 +2,8 @@
 """Client and server classes corresponding to protobuf-defined services."""
 
 import grpc
-import text_to_speech_api_pb2 as text__to__speech__api__pb2
+
+import tts.text_to_speech_api_pb2 as text__to__speech__api__pb2
 
 GRPC_GENERATED_VERSION = "1.73.0"
 GRPC_VERSION = grpc.__version__
